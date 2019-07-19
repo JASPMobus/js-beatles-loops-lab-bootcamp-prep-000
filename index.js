@@ -21,5 +21,10 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(times) {
+  var retArray = [];
   
+  do {
+    retArray.push("I love the Beatles!")
+    times--
+  } while (times > 0)
 }
