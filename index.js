@@ -27,4 +27,6 @@ function iLoveTheBeatles(times) {
     retArray.push("I love the Beatles!")
     times--
   } while (times > 0)
+  
+  return retArray
 }
